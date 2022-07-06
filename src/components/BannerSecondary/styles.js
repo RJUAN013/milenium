@@ -13,6 +13,6 @@ export const Center = styled.div`
     display: flex;
     img {
         width: 100PX;
-        height: 60PX;
+        height: 80PX;
     }
 `

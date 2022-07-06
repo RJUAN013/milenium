@@ -3,15 +3,14 @@ import styled from "styled-components"
 export const Container = styled.div`
     width: 100%;
     height: 92px;
-    background: #2c9432;
-    justify-content: center;
-    position: absolut;
+    background: #008037;
     display: flex;
+    justify-content: center;
+    position: Sticky;
 `
 
 export const LeftSide = styled.div`
-    width: 560px;
-    height: 92px;
+    width: 820px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,8 +21,8 @@ export const LeftSideA = styled.div`
     align-items: center;
 
     img {
-        width: 70px;
-        heigth: 70px;
+        width: 150px;
+        height: 60px;
     }
 `
 export const LeftSideB = styled.div`
@@ -32,21 +31,24 @@ export const LeftSideB = styled.div`
     align-items: center;
 
     input {
-        width: 300px;
-        height: 30px;
-        border-radius: 10px;
+        width: 520px;
+        height: 50px;
+        border-radius: 35px;
         border: none;
-    };
+        outline: none;
+        padding-left: 30px;
+        box-sizing: border-box;
+        transition: .3s;
+    }
 
     img {
-        width: 30px;
-        heigth: 30px;
-    };
+        width: 10px;
+        height: 10px;
+    }
 `
 
 export const RightSide = styled.div`
-    width: 560px;
-    height: 92px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,10 +59,22 @@ export const RightSideA = styled.div`
     flex-direction: row;
     align-items: center;
 
+    a {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      a:hover {
+        color: #000;
+        text-decoration: none;
+      }
+
     img {
-        width: 30px;
-        heigth: 30px;
+        width: 45px;
+        height: 45px;
     }
+
 `
 export const RightSideB = styled.div`
     display: flex;
@@ -68,7 +82,12 @@ export const RightSideB = styled.div`
     align-items: center;
 
     img {
-        width: 30px;
-        heigth: 30px;
+        width: 25px;
+        height: 25px;
+    }
+
+    h4{
+        color: #FFF;
+        padding-right: 5px;
     }
 `

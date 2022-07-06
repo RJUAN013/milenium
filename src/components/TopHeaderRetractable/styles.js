@@ -6,9 +6,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflowY: scroll;
-    float: left;
-    position: relative;
 `
 
 export const Center = styled.div`
@@ -16,6 +13,17 @@ export const Center = styled.div`
     display: flex;
 
     h3 {
-        
+        color: #e74c3c;
     }
+    
+    a {
+        color: #FFF;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      a:hover {
+        color: #000;
+        text-decoration: none;
+      }
 `

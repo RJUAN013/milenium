@@ -1,0 +1,3 @@
+Importação Slides
+
+https://reactjsexample.com/a-simple-image-slider-component-for-react-js/

@@ -1,6 +1,6 @@
 import React from "react"
 import * as S from "./styles"
-import free from "../../assets/free.png"
+import free from "../../assets/free.gif"
 
 export default function BannerSecondary(){
     return(
