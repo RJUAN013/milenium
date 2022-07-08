@@ -12,13 +12,13 @@ export default function Network(){
                
             </S.LeftSide>
             <S.CenterSide>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={green_facebook} alt="Facebook"/></a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src={green_instagram} alt="Instagram"/></a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src={green_youtube} alt="Instagram"/></a>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src={green_twitter} alt="Instagram"/></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={green_facebook} alt="Facebook"/></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src={green_instagram} alt="Instagram"/></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src={green_youtube} alt="Youtube"/></a>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src={green_twitter} alt="Twitter"/></a>
             </S.CenterSide>
             <S.RightSide>
-
+                <a href="https://api.whatsapp.com/send?phone=558712345678" target="_blank" rel="noopener noreferrer"><h3>Web WhatsApp</h3></a>
             </S.RightSide>
         </S.Container>
     )

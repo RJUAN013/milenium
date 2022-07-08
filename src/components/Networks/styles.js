@@ -34,4 +34,20 @@ export const RightSide = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    background: #8ff7a2;
+
+    :hover {
+        background: #52f271;
+    }
+
+    a {
+        color: #222;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      a:hover {
+        color: #000;
+        text-decoration: none;
+      }
 `
