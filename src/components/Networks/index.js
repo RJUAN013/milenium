@@ -18,7 +18,7 @@ export default function Network(){
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer"><img src={green_twitter} alt="Twitter"/></a>
             </S.CenterSide>
             <S.RightSide>
-                <a href="https://api.whatsapp.com/send?phone=558712345678" target="_blank" rel="noopener noreferrer"><h3>Web WhatsApp</h3></a>
+                <a href="https://api.whatsapp.com/send?phone=558712345678" target="_blank" rel="noopener noreferrer"><button><h3>Web WhatsApp</h3></button></a>
             </S.RightSide>
         </S.Container>
     )
