@@ -1,3 +1,9 @@
 Importação Slides
 
 https://reactjsexample.com/a-simple-image-slider-component-for-react-js/
+
+Navbar Scoll
+
+https://codesandbox.io/s/react-scroll-navbar-z76ig?file=/src/styles.css:99-312
+https://www.youtube.com/watch?v=piVIv3OeGCg&list=PL0TOeRM7wNmbKzc8DEGlWMBSa7gQH2M9M&index=3&t=6s
+https://www.youtube.com/watch?v=HoyHhgMYFj4

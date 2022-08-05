@@ -2,8 +2,9 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     width: 100%;
-    height: 600px;
+    height: 400px;
     padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +25,7 @@ export const CenterSide = styled.div`
 `
 
 export const CardA = styled.div`
-    height: 600px;
+    height: 300px;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ export const CardA = styled.div`
 `
 
 export const CardB = styled.div`
-    height: 600px;
+    height: 300px;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -49,7 +50,7 @@ export const CardB = styled.div`
     }
 `
 export const CardC = styled.div`
-    height: 600px;
+    height: 300px;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -61,7 +62,7 @@ export const CardC = styled.div`
     }
 `
 export const CardD = styled.div`
-    height: 600px;
+    height: 300px;
     flex-direction: column;
     display: flex;
     align-items: center;

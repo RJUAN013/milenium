@@ -1,12 +1,15 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    width: 100%;
-    height: 72px;
-    background: #004D21;
-    display: flex;
-    justify-content: center;
-    border-bottom: 5px solid #cac775;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 72px;
+        background: #004D21;
+        display: flex;
+        justify-content: center;
+        position: sticky;
+        border-bottom: 5px solid #cac775;
 `
 
 export const LeftSide = styled.div`
@@ -31,3 +34,4 @@ export const RightSide = styled.div`
         color: #cac775;
     }
 `
+

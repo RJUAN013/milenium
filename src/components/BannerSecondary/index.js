@@ -3,6 +3,7 @@ import * as S from "./styles"
 import free from "../../assets/free.gif"
 
 export default function BannerSecondary(){
+
     return(
         <S.Container>
             <S.Center>

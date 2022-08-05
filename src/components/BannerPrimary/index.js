@@ -1,14 +1,12 @@
 import React from "react"
 import * as S from "./styles"
 import SimpleImageSlider from "react-simple-image-slider"
-//import banner_01 from "../../assets/banner_01.jpg"
-//import banner_02 from "../../assets/banner_02.jpg"
+import banner_01 from "../../assets/banner_01.jpg"
+import banner_02 from "../../assets/banner_02.jpg"
+import logo from "../../assets/logo.png"
+import teste from "../../assets/teste.png"
 
-const img = [
-    require("../../assets/logo.png"/*{banner_02}*/),
-    require("../../assets/banner_01.jpg"/*{banner_01}*/),
-    require("../../assets/banner_02.jpg"/*{banner_02}*/),
-];
+export const img = [ logo, banner_01, banner_02, teste ];
 
 export default function BannerPrimary(){
     return(
@@ -23,6 +21,7 @@ export default function BannerPrimary(){
                 showNavs={true}
                 autoPlay={true}
                 autoPlayDelay={5.0}
+                paralax={true}
                 />
             </S.Center>
         </S.Container>
